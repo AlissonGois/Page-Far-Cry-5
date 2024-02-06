@@ -1,0 +1,63 @@
+.rodape {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rodape .rodape-imagem {
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    margin-left: 120px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 200px;
+}
+
+.informacoes-itens {
+    display: inline;
+    flex-direction: column;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Rubik";
+    align-items: center;
+    justify-content: center;
+    line-height: 1.8;
+}
+
+.informacoes-itens a{
+    color: #fff;
+}
+
+.informacoes-itens a {
+    text-decoration: none;
+}
+
+.informacoes-itens a:hover {
+    text-decoration: underline;
+    color: #c2c2c2;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0 0 0 200px;
+    line-height: 1.8;
+}
+
+.redes-sociais-itens a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais-itens a:hover {
+    text-decoration: underline;
+    color: #c2c2c2;
+}

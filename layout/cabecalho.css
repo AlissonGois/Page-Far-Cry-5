@@ -1,0 +1,47 @@
+.menu {
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cabecalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logo {
+    width: 15rem;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lista-item {
+    padding: 1.03em 1.08em;
+}
+
+.lista-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.lista-item a:hover {
+    color: #c2c2c2;
+}
+
+.fotoCapa {
+    width: 100%;
+}

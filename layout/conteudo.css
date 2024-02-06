@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:wght@300&family=Sarala&display=swap');
+
+.conteudo {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px;
+    line-height: 1.5;
+}
+
+.conteudo .titulo {
+    font-size: 25px;
+    font-family: "Rubik";
+    font-weight: 700;
+    margin: 10px 50px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.conteudo .subtitulo {
+    font-size: 25px;
+    font-family: "Rubik";
+    font-weight: 700;
+    margin: 0 50px 0 50px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.conteudo .paragrafo {
+    font-size: 20px;
+    font-family: "Rubik";
+    font-weight: 500;
+    margin: 0 50px 0 50px;
+    padding: 10px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+figure{
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+}
+
+figcaption{
+    margin-top: 10px;
+}
+
+.conteudo img {
+    width: 50rem;
+}
+
+.conteudo .imagem {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cabecalho figcaption {
+    text-align: center;
+}
